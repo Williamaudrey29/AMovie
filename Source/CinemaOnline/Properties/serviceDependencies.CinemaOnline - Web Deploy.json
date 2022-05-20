@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/cinemaonlinedbserver/databases/CinemaOnline_db",
+      "type": "mssql.azure",
+      "connectionId": "CinemaOnline_db_Con",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
